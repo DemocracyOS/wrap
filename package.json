@@ -2,10 +2,13 @@
   "name": "democracyos-wrap",
   "repository": "https://github.com/yields/wrap",
   "description": "Wrap an element.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "keywords": ["wrap"],
   "dependencies": {
     "democracyos-before": "^0.1.0"
+  },
+  "browser": {
+    "before": "democracyos-before"
   },
   "license": "MIT"
 }
